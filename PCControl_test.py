@@ -10,7 +10,7 @@ def Checksum(frame):
 	return  checksum
 
 def main():
-	ser = serial.Serial("/dev/ttyUSB1",115200, timeout=0.1)
+	ser = serial.Serial("/dev/ttyUSB0",115200, timeout=0.1)
 	
 	motorA = 0
 	motorB = 0	
