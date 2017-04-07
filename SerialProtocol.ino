@@ -74,7 +74,7 @@ void loop() {
    				for (int i = 0; i < packet_lenght; i++) {
        				sum += packet_data[i];
    				}
-   				if (sum = packet_checksum)
+   				if (sum == packet_checksum)
    				{
    					//here you can do something with the data the best would be a switch case with packet_data[0] as ID 
    					//and the rest as payload eg : analogWrite(packet_data[0],packet_data[1])
